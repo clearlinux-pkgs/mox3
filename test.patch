@@ -1,0 +1,15 @@
+--- mox3-0.8.0/test-requirements.txt~	2015-06-15 10:00:59.000000000 -0400
++++ mox3-0.8.0/test-requirements.txt	2015-06-16 08:42:13.202945726 -0400
+@@ -4,9 +4,9 @@
+ # this file lists dependencies required for the testing of heat
+ 
+ # Install bounded pep8/pyflakes first, then let flake8 install
+-pep8==1.5.7
+-pyflakes==0.8.1
+-flake8>=2.2.4,<=2.4.1
++pep8
++pyflakes
++flake8
+ 
+ coverage>=3.6
+ discover
