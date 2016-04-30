@@ -15,3 +15,5 @@ oslosphinx-python
 Sphinx-python
 testrepository-python
 pep8
+docutils
+Jinja2

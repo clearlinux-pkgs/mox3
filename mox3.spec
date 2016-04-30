@@ -4,14 +4,16 @@
 #
 Name     : mox3
 Version  : 0.14.0
-Release  : 16
+Release  : 17
 URL      : https://pypi.python.org/packages/source/m/mox3/mox3-0.14.0.tar.gz
 Source0  : https://pypi.python.org/packages/source/m/mox3/mox3-0.14.0.tar.gz
 Summary  : Mock object framework for Python
 Group    : Development/Tools
 License  : Apache-2.0
 Requires: mox3-python
+BuildRequires : Jinja2
 BuildRequires : Sphinx-python
+BuildRequires : docutils
 BuildRequires : extras
 BuildRequires : extras-python
 BuildRequires : fixtures-python
@@ -22,7 +24,6 @@ BuildRequires : pep8
 BuildRequires : pip
 BuildRequires : pluggy
 BuildRequires : py-python
-BuildRequires : pyrsistent-python
 BuildRequires : pytest
 BuildRequires : python-dev
 BuildRequires : python-mimeparse-python
