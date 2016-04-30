@@ -4,7 +4,7 @@
 #
 Name     : mox3
 Version  : 0.14.0
-Release  : 17
+Release  : 18
 URL      : https://pypi.python.org/packages/source/m/mox3/mox3-0.14.0.tar.gz
 Source0  : https://pypi.python.org/packages/source/m/mox3/mox3-0.14.0.tar.gz
 Summary  : Mock object framework for Python
