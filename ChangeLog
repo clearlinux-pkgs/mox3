@@ -1,6 +1,18 @@
 CHANGES
 =======
 
+0.16.0
+------
+
+* Updated from global requirements
+* Correct spelling of occurrences
+
+0.15.0
+------
+
+* Updated from global requirements
+* Updated from global requirements
+
 0.14.0
 ------
 
@@ -91,10 +103,10 @@ CHANGES
 * Mox release 0.5.1, which includes some bug fixes and tests for stubout
 * Fix for Issue 3, submitted by a...@therobots.org
 * Fix for Issue 5, submitted by agoratim
-* Patch from Matt Brown (mdbrow@gmail.com) to inspect the arguments of mocked methods. Alright! :)
+* Patch from Matt Brown (mdbrow@gmail.com) to inspect the arguments of mocked methods.  Alright! :)
 * Added support for __contains__, thanks to Adam Lowry
-* Added import for inspect, and tests for stubout. Patch by Manuel Holtgrewe
-* Remove duplicate NotTest. Bad patch
+* Added import for inspect, and tests for stubout.  Patch by Manuel Holtgrewe
+* Remove duplicate NotTest.  Bad patch
 * Add a Not comparator to compose with other comparators
 * Fix MoxTestBase to be usable with multiple-inheritance
 * Write a README
