@@ -4,7 +4,7 @@
 #
 Name     : mox3
 Version  : 0.18.0
-Release  : 21
+Release  : 22
 URL      : http://pypi.debian.net/mox3/mox3-0.18.0.tar.gz
 Source0  : http://pypi.debian.net/mox3/mox3-0.18.0.tar.gz
 Summary  : Mock object framework for Python
