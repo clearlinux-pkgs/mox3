@@ -1,6 +1,19 @@
 CHANGES
 =======
 
+0.20.0
+------
+
+* Revert "Use inspect.signature() if available"
+
+0.19.0
+------
+
+* Use inspect.signature() if available
+* Updated from global requirements
+* setup.cfg: configure doc build
+* Replace 'assertTrue(a (not)in b)' with 'assert(Not)In(a, b)'
+
 0.18.0
 ------
 
