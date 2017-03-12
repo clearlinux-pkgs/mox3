@@ -1,20 +1,2 @@
 # This file contains additional build requirements that did not get
 # picked up automatically. One name per line, no whitespace.
-fixtures-python
-testtools-python
-testtools
-traceback2-python
-unittest2-python
-python-mimeparse-python
-extras-python
-extras
-linecache2-python
-six-python
-six
-oslosphinx-python
-Sphinx-python
-testrepository-python
-pep8
-docutils
-Jinja2
-Babel

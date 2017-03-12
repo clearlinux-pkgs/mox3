@@ -4,43 +4,20 @@
 #
 Name     : mox3
 Version  : 0.20.0
-Release  : 23
+Release  : 24
 URL      : http://pypi.debian.net/mox3/mox3-0.20.0.tar.gz
 Source0  : http://pypi.debian.net/mox3/mox3-0.20.0.tar.gz
 Summary  : Mock object framework for Python
 Group    : Development/Tools
 License  : Apache-2.0
 Requires: mox3-python
-BuildRequires : Babel
-BuildRequires : Jinja2
-BuildRequires : Sphinx-python
-BuildRequires : docutils
-BuildRequires : extras
-BuildRequires : extras-python
-BuildRequires : fixtures-python
-BuildRequires : linecache2-python
-BuildRequires : markupsafe-python
-BuildRequires : oslosphinx-python
+Requires: fixtures
+Requires: pbr
 BuildRequires : pbr
-BuildRequires : pep8
 BuildRequires : pip
-BuildRequires : pluggy
-BuildRequires : py-python
-BuildRequires : pytest
 BuildRequires : python-dev
-BuildRequires : python-mimeparse-python
 BuildRequires : python3-dev
-BuildRequires : pytz-python
 BuildRequires : setuptools
-BuildRequires : six
-BuildRequires : six-python
-BuildRequires : testrepository-python
-BuildRequires : testtools
-BuildRequires : testtools-python
-BuildRequires : tox
-BuildRequires : traceback2-python
-BuildRequires : unittest2-python
-BuildRequires : virtualenv
 
 %description
 Mox3 - Mock object framework for Python 3
@@ -49,7 +26,6 @@ Mox3 - Mock object framework for Python 3
 %package python
 Summary: python components for the mox3 package.
 Group: Default
-Requires: fixtures-python
 
 %description python
 python components for the mox3 package.
@@ -60,17 +36,12 @@ python components for the mox3 package.
 
 %build
 export LANG=C
-export SOURCE_DATE_EPOCH=1487193807
+export SOURCE_DATE_EPOCH=1489280065
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
-%check
-export http_proxy=http://127.0.0.1:9/
-export https_proxy=http://127.0.0.1:9/
-export no_proxy=localhost,127.0.0.1,0.0.0.0
-PYTHONPATH=%{buildroot}/usr/lib/python2.7/site-packages python2 setup.py test
 %install
-export SOURCE_DATE_EPOCH=1487193807
+export SOURCE_DATE_EPOCH=1489280065
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
