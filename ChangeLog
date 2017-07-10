@@ -1,6 +1,14 @@
 CHANGES
 =======
 
+0.22.0
+------
+
+* Updated from global requirements
+* Updated from global requirements
+* Python 3.5 is added
+* Updated from global requirements
+
 0.21.0
 ------
 
@@ -69,7 +77,7 @@ CHANGES
 
 * Fix broken test and remove Bad test
 * Updated from global requirements
-* Activate pep8 check that _ is imported
+* Activate pep8 check that \_ is imported
 
 0.10.0
 ------
@@ -113,9 +121,9 @@ CHANGES
 * Pep8's E111 error is now ignored
 * Removed exclamation mark from travis.yml
 * Added pep8 to .travis.yml
-* Fixed deprecation warnings in mox_test.py
+* Fixed deprecation warnings in mox\_test.py
 * Introduced class to which mocks can be bound in order to preserve binding information (Python3 and missing unbound methods issue)
-* Added __hash__ for MockMethod - no default hash in py3k
+* Added \_\_hash\_\_ for MockMethod - no default hash in py3k
 * bugfix for unhashable/uncomparable dicts
 * Restored callable function since it's present in python 3.2
 * Converted all classes to the new style (inheriting from object) - this is the only option in py3k
@@ -138,13 +146,13 @@ CHANGES
 * Fix for Issue 3, submitted by a...@therobots.org
 * Fix for Issue 5, submitted by agoratim
 * Patch from Matt Brown (mdbrow@gmail.com) to inspect the arguments of mocked methods.  Alright! :)
-* Added support for __contains__, thanks to Adam Lowry
+* Added support for \_\_contains\_\_, thanks to Adam Lowry
 * Added import for inspect, and tests for stubout.  Patch by Manuel Holtgrewe
 * Remove duplicate NotTest.  Bad patch
 * Add a Not comparator to compose with other comparators
 * Fix MoxTestBase to be usable with multiple-inheritance
 * Write a README
 * Start our first release at 0.5.0, not 1.0.0
-* Include the mox_test_helper.py in the distribution
+* Include the mox\_test\_helper.py in the distribution
 * Fix mailing list address
 * Initial import of mox (originally an internal Google project)
