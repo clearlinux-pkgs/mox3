@@ -1,6 +1,15 @@
 CHANGES
 =======
 
+0.23.0
+------
+
+* Update URLs in documents according to document migration
+* Update .gitignore
+* turn on warning-is-error flag for doc build
+* switch from oslosphinx to openstackdocstheme
+* rearrange existing documentation based on the new standard layout
+
 0.22.0
 ------
 
