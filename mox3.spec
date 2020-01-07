@@ -4,7 +4,7 @@
 #
 Name     : mox3
 Version  : 0.28.0
-Release  : 39
+Release  : 40
 URL      : https://files.pythonhosted.org/packages/be/5e/afe96ed9f03fa266c6b8600380191eb7b71b5ecfc1897a6d28ca7c1968c7/mox3-0.28.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/be/5e/afe96ed9f03fa266c6b8600380191eb7b71b5ecfc1897a6d28ca7c1968c7/mox3-0.28.0.tar.gz
 Summary  : Mock object framework for Python
