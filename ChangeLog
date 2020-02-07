@@ -1,6 +1,16 @@
 CHANGES
 =======
 
+1.0.0
+-----
+
+* tox.ini & Setup.cfg cleanups
+* Drop python 2.7 support and testing
+* Switch to Ussuri jobs
+* Blacklist sphinx 2.1.0 (autodoc bug)
+* Update the constraints url
+* Remove flake8 from the test-requirements
+
 0.28.0
 ------
 
