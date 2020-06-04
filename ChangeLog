@@ -1,6 +1,13 @@
 CHANGES
 =======
 
+1.1.0
+-----
+
+* Bump default tox env from py37 to py38
+* Add py38 package metadata
+* Add Python3 victoria unit tests
+
 1.0.0
 -----
 
