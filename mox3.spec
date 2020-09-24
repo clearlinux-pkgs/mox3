@@ -4,7 +4,7 @@
 #
 Name     : mox3
 Version  : 1.1.0
-Release  : 44
+Release  : 45
 URL      : https://files.pythonhosted.org/packages/90/ac/2220e111a63e32872567d6e677b4b36163c0c5ac766ef76d00dee3eabdf9/mox3-1.1.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/90/ac/2220e111a63e32872567d6e677b4b36163c0c5ac766ef76d00dee3eabdf9/mox3-1.1.0.tar.gz
 Summary  : Mock object framework for Python
